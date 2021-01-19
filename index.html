@@ -1,0 +1,877 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CSS link -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
+
+<title>Bootstrap 5</title>
+</head>
+<body>
+<!-- accordion -->
+<div class="accordion" id="ex_accordion">
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="head1">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+        <h3>Accordion item question 1</h3>
+      </button>
+    </h2>
+    <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="head1" data-bs-parent="#ex_accordion">
+      <div class="accordion-body custombody">
+        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="head2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+        <h3>Accordion item question 2</h3>
+      </button>
+    </h2>
+    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="head2" data-bs-parent="#ex_accordion">
+      <div class="accordion-body custombody">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="head3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+        <h3>Accordion item question 1</h3>
+      </button>
+    </h2>
+    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="head3" data-bs-parent="#ex_accordion">
+      <div class="accordion-body custombody">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+  	<h2 class="accordion-header" id="head4">
+  		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="#collapse4">
+  			<h3>It's custom accordion</h3>
+  		</button>
+  	</h2>
+  	<div id="collapse4" class="accodion-collapse collapse" aria-labelledby="head4" data-bs-parent="#ex_accordion">
+  		<div class="accordion-body custombody">
+  			<strong>Lorem ipsum dolor sit amet</strong> consectetur adipiscing, elit vehicula euismod est vulputate. Condimentum ornare senectus sagittis blandit interdum luctus egestas nibh nisi, conubia netus aptent taciti enim cursus ligula mollis, himenaeos quam vivamus rhoncus nullam inceptos placerat mauris elementum, morbi velit dis habitant hendrerit eu convallis. Taciti imperdiet donec orci laoreet morbi venenatis risus maecenas felis rutrum, justo pretium convallis sodales ullamcorper ultrices metus sem natoque nibh vel, ornare enim habitasse etiam auctor sociosqu at curae tellus. At orci cras ac odio pulvinar ante arcu turpis torquent interdum vel, lacus a lacinia gravida praesent cursus venenatis varius ligula. Integer felis gravida cum ad mattis duis in nascetur, aliquam cubilia porttitor ultrices vitae habitant mus vel, <code>sociis</code> augue risus congue nunc natoque montes.
+  		</div>
+  	</div>
+  </div>
+
+</div>
+
+<div class="accordion accordion-flush mt-3" id="ex_flush">
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="f_head1">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f_collapse1" aria-expanded="true" aria-controls="f_collapse1">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="f_collapse1" class="accordion-collapse collapse show" aria-labelledby="f_head1" data-bs-parent="#ex_flush">
+      <div class="accordion-body custombody">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="f_head2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f_collapse2" aria-expanded="false" aria-controls="f_collapse2">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="f_collapse2" class="accordion-collapse collapse" aria-labelledby="f_head2" data-bs-parent="#ex_flush">
+      <div class="accordion-body custombody">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="f_head3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f_collapse3" aria-expanded="false" aria-controls="f_collapse3">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="f_collapse3" class="accordion-collapse collapse" aria-labelledby="f_head3" data-bs-parent="#ex_flush">
+      <div class="accordion-body custombody">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Alert -->
+<div class="container">
+	<div class="alert alert-success" role="alert">
+		  A simple primary alert—check it out!
+	</div>
+</div>
+<div class="container">
+	<div class="alert alert-danger" role="alert">
+		  A simple primary <a class="alert-link" href="#">alert—check</a> it out!
+	</div>
+</div>
+<div class="container">
+	<div class="alert alert-success" role="alert">
+		<h3 class="alert-heading">A simple primary alert—check</h3>
+		<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+		<hr>
+		<p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipiscing elit bibendum turpis.</p>
+	</div>
+</div>
+<div class="container">
+	<div class="alert alert-danger alert-dismissible fade show" role="alert">
+		<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-lebelledby="colse"></button>
+	</div>
+</div>
+<!-- badge -->
+<div class="container">
+	Aww yeah, successfully read this important alert you message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of <span class="badge bg-success">content</span>
+</div>
+<div class="container mt-3">
+	<button class="btn btn-secondary" type="button">
+		Notification <span class="badge bg-info">4</span>
+	</button>
+</div>
+
+<div class="container mt-3">
+	<button class="btn btn-primary" type="button">
+		Profile <span class="badge bg-warning text-dark">9</span>	
+		<span class="visually-hidden">unread message</span>
+	</button>
+</div>
+
+<div class="container mt-3">
+	<span class="badge bg-primary">Notification</span>
+</div>
+
+<div class="container mt-3">
+	<h3>I Love You <span class="badge round-pill bg-success">new</span></h3>
+</div>
+<!-- bradcrumb -->
+<div class="container">
+	<nav aria-label="breadcrumb">
+	  <ol class="breadcrumb">
+	    <li class="breadcrumb-item active" aria-current="page">Home</li>
+	  </ol>
+	</nav>
+</div>
+<div class="container mt-3">
+	<nav aria label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Home</a></li>
+			<li class="breadcrumb-item active" aria current="page">Profile</li>
+		</ol>
+	</nav>
+</div>
+<div class="container mt-3">
+	<nav aria label="breadcrumb">
+		<ul class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Home</a></li>
+			<li class="breadcrumb-item"><a href="#">Profile</a></li>
+			<li class="breadcrumb-item active" aria current="page">Page</li>
+		</ul>
+	</nav>
+</div>
+
+<div class="container">
+	<nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb">
+	  <ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Home</a></li>
+			<li class="breadcrumb-item active" aria current="page">Profile</li>
+	  </ol>
+	</nav>
+</div>
+
+<div class="container">
+	<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+	  <ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Home</a></li>
+			<li class="breadcrumb-item active" aria current="page">Profile</li>
+	  </ol>
+	</nav>
+</div>
+
+<!-- button -->
+<div class="container mb-3">
+	<button class="btn btn-primary" type="button">Homes</button>
+	<button class="btn btn-success text-dark" type="button">Homes</button>
+	<button class="btn btn-link text-dark" type="button">Homes</button>
+</div>
+
+<div class="container mb-3">
+	<a href="#" class="btn btn-primary" role="button">Home</a>
+	<button type="button" class="btn btn-success">Home</button>
+	<input type="submit" class="btn btn-warning" name="button" value="submit">
+	<input type="button" class="btn btn-danger" name="button" value="button">
+	<input type="reset" class="btn btn-light" name="button" value="reset">
+</div>
+<div class="container mb-3">
+	<button type="button" class="btn btn-outline-primary">Home</button>
+</div>
+<div class="container mb-3">
+	<button type="button" class="btn btn-outline-danger btn-lg">Home</button>
+</div>
+
+<div class="container">
+	<a href="#" class="btn btn-primary btn-lg disabled" tabindex="1" role="button" aria-disabled="true">Rony</a>
+	<a href="#" class="btn btn-success btn-sm disabled" role="button" tabindex="1" aria-disabled="true">Disable</a>
+</div>
+<div class="container">
+	<div class="d-grid gap-2">
+		<button class="btn btn-outline-primary" type="button">Rony</button>
+		<button class="btn btn-outline-primary" type="button">Rony</button>
+	</div>
+</div>
+<div class="container">
+	<button type="button" class="btn btn-primary" data-bs-toggle="button" autocomplete="off">Toggle link</button>
+	<button type="button" class="btn btn-primary active" data-bs-toggle="button" autocomplete="off" aria-pressed="true">Toggle active link</button>
+	<button type="button" class="btn btn-primary" disabled data-bs-toggle="button" autocomplete="off">Toggle disable link</button>
+</div>
+<div class="container">
+	<a href="#" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true" role="button">Togglee active</a>
+	<a href="#" class="btn btn-primary disabled" tabindex="1" data-bs-toggle="button" role="button" aria-disabled="true">toggle disable</a>
+</div>
+<!-- button group -->
+<div class="btn-group g-0" role="group" aria-label="basic">
+	<button class="btn btn-primary" type="button">Rony</button>
+	<button class="btn btn-success" type="button">Rony</button>
+	<button class="btn btn-secondary" type="button">Rony</button>
+</div>
+<div class="container">
+	<div class="btn-group" role="group" aria-label="basic">
+		<a href="#" class="btn btn-outline-primary" role="button">Rony</a>
+		<a href="#" class="btn btn-outline-primary active" role="button" aria-current-page>Rony</a>
+		<a href="#" class="btn btn-outline-primary disabled" role="button">Rony</a>
+	</div>
+</div>
+
+<div class="container">
+	<div class="btn-group" role="group">
+		<input type="checkbox" class="btn-check" id="btn-check1" name="checkbox" autocomplete="off" checked="">
+		<label for="btn-check1" class="btn btn-outline-primary">Rony</label>
+		<input type="checkbox" class="btn-check" id="btn-check1" name="checkbox" autocomplete="off">
+		<label for="btn-check1" class="btn btn-outline-primary">Rony</label>
+		<input type="checkbox" class="btn-check" id="btn-check1" name="checkbox" autocomplete="off">
+		<label for="btn-check1" class="btn btn-outline-primary">Rony</label>
+	</div>
+</div>
+<div class="container">
+	<div class="btn-group" role="group">
+		<input type="radio" class="btn-check" id="radio1" autocomplete="off" name="radio">
+		<label for="radio1" class="btn btn-outline-danger">rony</label>
+		<input type="radio" class="btn-check" id="radio1" autocomplete="off" name="radio" checked="">
+		<label for="radio1" class="btn btn-outline-danger">rony</label>
+		<input type="radio" class="btn-check" id="radio1" autocomplete="off" name="radio" disabled="">
+		<label for="radio1" class="btn btn-outline-danger">rony</label>
+	</div>
+</div>
+
+<div class="container mt-3">
+	<div class="btn-toolbar justify-content-between" role="toolbar"  aria-label="Toolbar with button groups">
+		<div class="btn-group" role="group">
+			<button type="button" class="btn btn-outline-danger">1</button>
+			<button type="button" class="btn btn-outline-danger">1</button>
+			<button type="button" class="btn btn-outline-danger">1</button>
+			<button type="button" class="btn btn-outline-danger">1</button>
+			<!-- <button type="button" class="btn btn-outline-danger">1</button>
+			<button type="button" class="btn btn-outline-danger">1</button> -->
+		</div>
+		<div class="input-group">
+			<span class="input-group-text">@</span>
+			<input type="text" class="form-control" placeholder="Input group example" name="text">
+			<!-- <span class="input-group-text">$</span> -->
+		</div>
+	</div>
+</div>
+
+
+
+<div class="container">
+	<div class="btn-group" role="group">
+		<button type="button" class="btn btn-primary">1</button>
+		<button type="button" class="btn btn-outline-primary">2</button>
+		<div class="btn-group" role='group'>
+			<button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown</button>
+			<ul class="dropdown-menu">
+				<li class="dropdown-item">Rony</li>
+				<li class="dropdown-item">Rony</li>
+				<li class="dropdown-item">Rony</li>
+				<li class="dropdown-item">Rony</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="btn-group-vertical">
+	<button type="button" class="btn btn-outline-primary">Rony</button>
+	<button type="button" class="btn btn-outline-primary">Rony</button>
+	<button type="button" class="btn btn-outline-primary">Rony</button>
+	<button type="button" class="btn btn-outline-primary">Rony</button>
+	</div>
+</div>
+<!-- card -->
+<div class="container">
+	<div class="card" style="width: 18rem;">
+		<img src="images/img7.jpg" alt="card" class="card-img-top">
+		<div class="card-body">
+			<h5 class="card-title">This is card</h5>
+			<h6 class="card-subtitle text-muted">Nice card</h6>
+			<p class="card-text">Lorem ipsum dolor sit amet consectetur, adipiscing elit eget magnis.</p>
+			<a href="#" class="card-link">Rony</a>
+			<a href="#" class="btn btn-outline-danger">Rony</a>
+			<button class="btn  btn-outline-primary" type="button">Buttons</button>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="card" style="width: 18rem;">
+		<div class="card-header">
+			Kitchen-card
+		</div>
+		<img src="images/img7.jpg" alt="card" class="card-img-top">
+		<div class="card-body">
+			<h2 class="card-title">This is card</h2>
+			<h6 class="card-subtitle">Nice kitchen</h6>
+			<p class="card-text">Lorem ipsum dolor sit amet consectetur, adipiscing elit eget magnis.</p>
+			<a href="#" class="card-link">card link</a>
+			<a href="#" class="card-link">another link</a>
+			<button type="button" class="btn btn-outline-primary">button</button>
+		</div>
+		<div class="card-footer">
+			this is footer
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="card">
+		<div class="card-header">
+			Quote
+		</div>
+		<div class="card-body">
+			<h3 class="card-title">This is card title</h3>
+			<blockquote class="blockquote mb-0">
+				<p>Lorem ipsum dolor sit amet consectetur, adipiscing elit eget magnis.</p>
+				<footer class="blockquote-footer">it is written by <cite title="Rony">rony</cite></footer>
+			</blockquote>
+		</div>
+	</div>
+	<div class="card text-center">
+		<div class="card-header">
+			Quote
+		</div>
+		<div class="card-body">
+			<h3 class="card-title">This is card title</h3>
+			<blockquote class="blockquote mb-0">
+				<p>Lorem ipsum dolor sit amet consectetur, adipiscing elit eget magnis.</p>
+				<footer class="blockquote-footer">it is written by <cite title="Rony">rony</cite></footer>
+			</blockquote>
+		</div>
+	</div>
+	<div class="card text-end">
+		<div class="card-header">
+			Quote
+		</div>
+		<div class="card-body">
+			<h3 class="card-title">This is card title</h3>
+			<blockquote class="blockquote mb-0">
+				<p>Lorem ipsum dolor sit amet consectetur, adipiscing elit eget magnis.</p>
+				<footer class="blockquote-footer">it is written by <cite title="Rony">rony</cite></footer>
+			</blockquote>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="card w-50">
+		<div class="card-header">
+			Quote
+		</div>
+		<div class="card-body">
+			<h3 class="card-title">This is card title</h3>
+			<blockquote class="blockquote mb-0">
+				<p>Lorem ipsum dolor sit amet consectetur, adipiscing elit eget magnis.</p>
+				<footer class="blockquote-footer">it is written by <cite title="Rony">rony</cite></footer>
+			</blockquote>
+		</div>
+	</div>
+	<div class="card w-75">
+		<div class="card-header">
+			Quote
+		</div>
+		<div class="card-body">
+			<h3 class="card-title">This is card title</h3>
+			<blockquote class="blockquote mb-0">
+				<p>Lorem ipsum dolor sit amet consectetur, adipiscing elit eget magnis.</p>
+				<footer class="blockquote-footer">it is written by <cite title="Rony">rony</cite></footer>
+			</blockquote>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="card text-center">
+		<div class="card-header">
+			<ul class="nav nav-tabs card-header-tabs">
+				<li class="nav-item"><a href="#" class="nav-link active" aira-current="true">active</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+				<li class="nav-item"><a href="#" class="nav-link disabled" tabindex="1" aria-disabled="true">disable</a></li>
+			</ul>
+		</div>
+		<div class="card-body">
+			<h3 class="card-title">This is card title</h3>
+			<blockquote class="blockquote mb-0">
+				<p>Lorem ipsum dolor sit amet consectetur, adipiscing elit eget magnis.</p>
+				<footer class="blockquote-footer">it is written by <cite title="Rony">rony</cite></footer>
+			</blockquote>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="card text-center">
+		<div class="card-header">
+			<ul class="nav nav-pills card-header-pills">
+				<li class="nav-item"><a href="#" class="nav-link active" aira-current="true">active</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+				<li class="nav-item"><a href="#" class="nav-link disabled" tabindex="1" aria-disabled="true">disable</a></li>
+			</ul>
+		</div>
+		<div class="card-body">
+			<h3 class="card-title">This is card title</h3>
+			<blockquote class="blockquote mb-0">
+				<p>Lorem ipsum dolor sit amet consectetur, adipiscing elit eget magnis.</p>
+				<footer class="blockquote-footer">it is written by <cite title="Rony">rony</cite></footer>
+			</blockquote>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="card text-center text-white">
+		<img src="images/img7.jpg" class="card-img" alt="card">
+		<div class="card-img-overlay">
+			<h5 class="card-title">This is img overlay</h5>
+			<p class="card-text">This is img overlayThis is img overlayThis is img overlay</p>
+			 <p class="card-text">Last updated 3 mins ago</p>
+		</div>
+	</div>
+</div>
+
+
+<div class="container mt-3 mb-3">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="card">
+				<div class="row">
+					<div class="col-lg-4">
+						<img src="images/img7.jpg" class="card-img" alt="card">
+					</div>
+					<div class="col-lg-8 bg-success text-white">
+						<div class="card-body">
+							<h5 class="card-title">this is card title</h5>
+							<p class="card-text">Last update 3 minnutes ago</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="card-group">
+		<div class="card">
+			<img src="images/img7.jpg" class="card-img-top"  alt="card">
+			<div class="card-body">
+				<h3 class="card-title">this is flex card</h3>
+				<p class="card-text">this is flex cardthis is flex cardthis is flex card</p>
+				<p class="card-text">Last update 3 minnutes ago</p>
+			</div>
+			<div class="card-footer">
+				this flex card footer
+			</div>
+		</div>
+		<div class="card">
+			<img src="images/img7.jpg" class="card-img-top"  alt="card">
+			<div class="card-body">
+				<h3 class="card-title">this is flex card</h3>
+				<p class="card-text">this is flex cardthis is flex cardthis is flex card</p>
+				<p class="card-text">Last update 3 minnutes ago</p>
+			</div>
+			<div class="card-footer">
+				this flex card footer
+			</div>
+		</div>
+		<div class="card">
+			<img src="images/img7.jpg" class="card-img-top"  alt="card">
+			<div class="card-body">
+				<h3 class="card-title">this is flex card</h3>
+				<p class="card-text">this is flex cardthis is flex cardthis is flex card</p>
+				<p class="card-text">Last update 3 minnutes ago</p>
+			</div>
+			<div class="card-footer">
+				this flex card footer
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container mt-3 mb-3">
+	<div class="row row-cols-lg-2 mb-3 g-4">
+		<div class="col">
+			<div class="card">
+				<img src="images/img7.jpg" class="card-img-top"  alt="card">
+				<div class="card-body">
+					<h3 class="card-title">this is flex card</h3>
+					<p class="card-text">this is flex cardthis is flex cardthis is flex card</p>
+					<p class="card-text">Last update 3 minnutes ago</p>
+				</div>
+				<div class="card-footer">
+					this flex card footer
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<img src="images/img7.jpg" class="card-img-top"  alt="card">
+				<div class="card-body">
+					<h3 class="card-title">this is flex card</h3>
+					<p class="card-text">this is flex cardthis is flex cardthis is flex card</p>
+					<p class="card-text">Last update 3 minnutes ago</p>
+				</div>
+				<div class="card-footer">
+					this flex card footer
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<img src="images/img7.jpg" class="card-img-top"  alt="card">
+				<div class="card-body bg-primary">
+					<h3 class="card-title">this is flex card</h3>
+					<p class="card-text">this is flex cardthis is flex cardthis is flex card</p>
+					<p class="card-text">Last update 3 minnutes ago</p>
+				</div>
+				<div class="card-footer">
+					this flex card footer
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<img src="images/img7.jpg" class="card-img-top"  alt="card">
+				<div class="card-body bg-primary">
+					<h3 class="card-title">this is flex card</h3>
+					<p class="card-text">this is flex cardthis is flex cardthis is flex card</p>
+					<p class="card-text">Last update 3 minnutes ago</p>
+				</div>
+				<div class="card-footer">
+					this flex card footer
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- colse button -->
+<div class="container">
+	<button type="button" class="btn-close" aria-label="close"></button>
+	<button type="button" class="btn-close" disabled="" aria-label="close"></button>
+</div>
+<div class="container bg-primary">
+	<button type="button" class="btn-close btn-close-white" aria-label="close"></button>
+	<button type="button" class="btn-close btn-close-dark" disabled="" aria-label="close"></button>
+</div>
+
+
+<!-- collapse -->
+<div class="container mt-3 mb-3">
+	<div>
+		<a href="#ex_collapse" class="btn btn-outline-primary" data-bs-toggle="collapse" aria-controls="ex_collapse" role="button" aria-expanded="false">Toggle first element</a>
+		<button type="button" class="btn btn-primary" data-bs-toggle="collapse" aria-controls="ex_collapse2" data-bs-target="#ex_collapse2" aria-expanded="false">Toggle element</button>
+		<button type="button" class="btn btn-outline-danger" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-controls="ex_collapse ex_collapse2" aria-expanded="false">mullti toggle</button>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="collapse multi-collapse" id="ex_collapse">
+				<div class="card card-body">
+					<p class="card-text">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="collapse multi-collapse" id="ex_collapse2">
+				<div class="card card-body">
+					<p class="card-text">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- drodown -->
+<div class="container">
+	<div class="dropdown">
+		<button type="button" class="btn btn-outline-danger dropdown-toggle" data-bs-toggle="dropdown">Rony</button>
+		<ul class="dropdown-menu dropdown-menu-dark">
+			<li><a href="#" class="dropdown-item">1</a></li>
+			<li><a href="#" class="dropdown-item">1</a></li>
+			<li><a href="#" class="dropdown-item">1</a></li>
+			<li><a href="#" class="dropdown-item">1</a></li>
+			<li><a href="#" class="dropdown-item">1</a></li>
+		</ul>
+	</div>
+</div>
+<div class="container">
+	<div class="btn-group">
+		<button class="btn btn-outline-primary" type="button">Rony</button>
+		<button type="button" class="btn btn-outline-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-label="dropdown">
+			<span class="visually-hidden">Toggle down</span>
+		</button>
+		<ul class="dropdown-menu dropdown-menu-dark">
+			<li><a href="#" class="dropdown-item">1</a></li>
+			<li><a href="#" class="dropdown-item">1</a></li>
+			<li><a href="#" class="dropdown-item">1</a></li>
+			<li><hr class="dropdown-divider"></li>
+			<li><a href="#" class="dropdown-item">1</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- Example split danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-outline-primary">Action</button>
+  <button type="button" class="btn btn-outline-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Toast -->
+<div class="container bg-primary">
+	<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+		<div class="toast-header">
+			<img src="images/img7.jpg" alt="toast">
+			<strong class="me-auto">bootstrap</strong>
+			<p>3minutes ago</p>
+			<button class="btn-close" data-bs-dismiss="toast" type="button" aria-label="close">Rony</button>
+		</div>
+		<div class="toast-body">
+			<p>Rony hasaan</p>
+		</div>
+	</div>
+</div>
+<!-- tooltips -->
+<div class="container mt-3 mb-3">
+	<button type="button" class="btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="tootip on top">Top</button>
+	<button class="btn btn-outline-danger" title="tooltio on left" type="button" data-bs-toggle="tooltip" data-bs-placement="left">Rony</button>
+</div>
+
+<!-- spin -->
+<div class="container">
+	<div class="spinner-border" role="status">
+		<span class="visually-hidden">loading...</span>
+	</div>
+	<div class="spinner-border text-danger" role="status">
+		<span class="visually-hidden">Load....</span>
+	</div>
+	<div class="spinner-grow text-danger" role="status">
+		<span class="visually-hidden">Load....</span>
+	</div>
+</div>
+
+<div class="container">
+	<div class="spinner-border m-5" role="status">
+		<span class="visually-hidden">loading...</span>
+	</div>
+</div>
+
+<div class="container">
+	<div class="d-flex justify-content-center">
+		<div class="spinner-border m-5" role="status">
+		<span class="visually-hidden">loading...</span>
+	</div>
+	</div>
+</div>
+<div class="container">
+	<div class="d-flex justify-content-end">
+		<div class="spinner-border m-5" role="status">
+		<span class="visually-hidden">loading...</span>
+	</div>
+	</div>
+</div>
+<div class="container">
+	<div class="d-flex">
+		<span>loading...</span>
+		<div class="spinner-border ms-auto" role="status">
+	</div>
+	</div>
+</div>
+<div class="container">
+	<div class="clearfix">
+		<div class="spinner-border float-end" role="status">
+		<span class="visually-hidden">loading...</span>
+	</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="text-center">
+		<div class="spinner-border" role="status">
+		<span class="visually-hidden">loading...</span>
+	</div>
+	</div>
+</div>
+
+<div class="container">
+		<button class="btn btn-outline-primary" type="button">
+		  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+		  Loading...
+		</button>
+		<button type="button" class="btn btn-outline-danger btn-outline-danger-lg">
+			<span class="spinner-grow" role="status"></span>
+			Rony
+		</button>
+</div>
+
+<!-- pegegantion -->
+<div class="container">
+	<nav>
+		<ul class="pagination justify-content-center">
+			<li class="page-item"><a href="#" class="page-link">Previous</a></li>
+			<li class="page-item"><a class="page-link">1</a></li>
+			<li class="page-item active"><a class="page-link">2</a></li>
+			<li class="page-item"><a class="page-link">3</a></li>
+			<li class="page-item"><a class="page-link">4</a></li>
+			<li class="page-item"><a class="page-link">next</a></li>
+		</ul>
+	</nav>
+</div>
+
+<div class="container">
+	<nav>
+		<ul class="pagination justify-content-end">
+			<li class="page-item"><a href="#" class="page-link"><span>&laquo;</span></a></li>
+			<li class="page-item"><a class="page-link">1</a></li>
+			<li class="page-item active"><a class="page-link">2</a></li>
+			<li class="page-item"><a class="page-link">3</a></li>
+			<li class="page-item"><a class="page-link">4</a></li>
+			<li class="page-item"><a class="page-link"><span>&raquo;</span></a></li>
+		</ul>
+	</nav>
+</div>
+
+<!-- progressbar -->
+<div class="container mt-3 mb-3">
+	<div class="progress mb-3">
+		<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+	</div>
+	<div class="progress mb-3">
+		<div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25</div>
+	</div>
+	<div class="progress mb-3">
+		<div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50</div>
+	</div>
+	<div class="progress mb-3">
+		<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100</div>
+	</div>
+	<div class="progress mb-3">
+		<div class="progress-bar w-75" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">75</div>
+	</div>
+	<div class="progress mb-3">
+		<div class="progress-bar w-75 bg-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">75</div>
+	</div>
+	<div class="progress mb-3">
+		<div class="progress-bar  bg-primary" role="progressbar" style="width: 25%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+		<div class="progress-bar  bg-danger" role="progressbar" style="width: 25%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+		<div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+	</div>
+	<div class="progress mb-3">
+		<div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25</div>
+	</div>
+	<div class="progress mb-3">
+		<div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  JS links -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
